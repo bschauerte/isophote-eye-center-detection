@@ -1,3 +1,14 @@
+/* Demo of the <isophoteeyedetector.hpp> class
+ * 
+ *  \author B. Schauerte
+ *  \email  <schauerte@ieee.org>
+ *  \date   2011
+ *
+ * Copyright (C) Boris Schauerte - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Boris Schauerte <schauerte@ieee.org>, 2011
+ */
 #include <okapi.hpp>
 #include <okapi-gui.hpp>
 #include <okapi-videoio.hpp>

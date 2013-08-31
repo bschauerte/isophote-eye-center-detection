@@ -1,3 +1,14 @@
+/* Templatized version of {FLT|DBL|LDBL}_EPSILON
+ *
+ *  \author B. Schauerte
+ *  \email  <schauerte@kit.edu>
+ *  \date   2011
+ *
+ * Copyright (C) Boris Schauerte - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Boris Schauerte <schauerte@ieee.org>, 2011
+ */
 #pragma once
 
 #include <float.h>

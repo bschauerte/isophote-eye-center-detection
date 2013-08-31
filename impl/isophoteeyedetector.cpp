@@ -1,3 +1,14 @@
+/** Isophote-based eye center detection (encapsulated in a class).
+ *
+ *  \author B. Schauerte
+ *  \email  <schauerte@ieee.org>
+ *  \date   2011
+ *
+ * Copyright (C) Boris Schauerte - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Boris Schauerte <schauerte@ieee.org>, 2011
+ */
 #include "isophoteeyedetector.hpp"
 
 // include necessary stuff for isophote calculation

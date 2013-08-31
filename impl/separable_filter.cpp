@@ -1,8 +1,13 @@
 /** Implementation of efficient image filtering for small filter sizes (i.e. we do not perform the Fourier-Transform for filtering)
  *
  *  \author B. Schauerte
- *  \email  <schauerte@kit.edu>
+ *  \email  <schauerte@ieee.org>
  *  \date   2011
+ *
+ * Copyright (C) Boris Schauerte - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Boris Schauerte <schauerte@ieee.org>, 2011
  */
 #include "separable_filter.hpp"
 #include "gauss_filter.hpp"

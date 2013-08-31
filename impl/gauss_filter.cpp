@@ -1,8 +1,13 @@
-/** Implementation Gaussian filters and their derivatives
- *
+/* Implementation Gaussian filters and their derivatives
+ * 
  *  \author B. Schauerte
- *  \email  <schauerte@kit.edu>
+ *  \email  <schauerte@ieee.org>
  *  \date   2011
+ *
+ * Copyright (C) Boris Schauerte - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Boris Schauerte <schauerte@ieee.org>, 2011
  */
 #include "gauss_filter.hpp"
 #include <stdint.h>
