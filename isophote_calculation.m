@@ -5,6 +5,11 @@ function [k,c,D,R,ind,Lx,Ly,Lxx,Lxy,Lyy,hx,hy,hxx,hxy,hyy]=isophote_calculation(
     %
     % @author B. Schauerte
     % @date 2011
+    %
+    % Copyright (C) Boris Schauerte - All Rights Reserved
+    % Unauthorized copying of this file, via any medium is strictly prohibited
+    % Proprietary and confidential
+    % Written by Boris Schauerte <schauerte@ieee.org>, 2011
 
     % convert to RGB if necessary
     if size(I,3) > 1

@@ -10,7 +10,12 @@ function [Lx,Ly,Lxx,Lxy,Lyy,hx,hy,hxx,hxy,hyy]=imderivgauss3(I,sigma,conv_shape,
     % (see 'conv2' and 'conv2pad'/'conv2wrap').
     %
     % @author B. Schauerte
-    % @date   2011  
+    % @date   2011
+    %
+    % Copyright (C) Boris Schauerte - All Rights Reserved
+    % Unauthorized copying of this file, via any medium is strictly prohibited
+    % Proprietary and confidential
+    % Written by Boris Schauerte <schauerte@ieee.org>, 2011
     
     % parameters
     if nargin < 2

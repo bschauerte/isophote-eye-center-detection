@@ -11,6 +11,11 @@ function [k,D,c,acc,Lx,Ly,Lxx,Lxy,Lyy]=isophote_eye_center_detector(I)
     %
     % @author B. Schauerte
     % @date   2011
+    %
+    % Copyright (C) Boris Schauerte - All Rights Reserved
+    % Unauthorized copying of this file, via any medium is strictly prohibited
+    % Proprietary and confidential
+    % Written by Boris Schauerte <schauerte@ieee.org>, 2011
     
     % convert to RGB if necessary
     if size(I,3) > 1

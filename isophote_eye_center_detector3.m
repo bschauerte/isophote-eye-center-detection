@@ -8,6 +8,11 @@ function [k,c,D,acc,ind,Lx,Ly,Lxx,Lxy,Lyy,hx,hy,hxx,hxy,hyy]=isophote_eye_center
     %
     % @author B. Schauerte
     % @date   2011
+    %
+    % Copyright (C) Boris Schauerte - All Rights Reserved
+    % Unauthorized copying of this file, via any medium is strictly prohibited
+    % Proprietary and confidential
+    % Written by Boris Schauerte <schauerte@ieee.org>, 2011
     
     [k,c,D,R,ind,Lx,Ly,Lxx,Lxy,Lyy] = isophote_calculation_anisotropic(I,sigma);
     %[k,c,D,R,ind,Lx,Ly,Lxx,Lxy,Lyy,hx,hy,hxx,hxy,hyy]=isophote_calculation(I,sigma);

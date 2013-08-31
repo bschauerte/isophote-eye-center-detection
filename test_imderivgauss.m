@@ -3,6 +3,11 @@
 %
 % @author B. Schauerte
 % @date   2011
+%
+% Copyright (C) Boris Schauerte - All Rights Reserved
+% Unauthorized copying of this file, via any medium is strictly prohibited
+% Proprietary and confidential
+% Written by Boris Schauerte <schauerte@ieee.org>, 2011
 
 I=im2double(rgb2gray(imread('/home/bschauer/private/wallpaper-hot/1310156288288.jpg')));
 I=imresize(I,[NaN 64]);

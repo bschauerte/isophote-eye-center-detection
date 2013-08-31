@@ -5,6 +5,12 @@ function [image]=test_create_circle_image(imsize,pos,r,bgval,fgval)
     %
     % @author B. Schauerte
     % @date   2011
+    %
+    % Copyright (C) Boris Schauerte - All Rights Reserved
+    % Unauthorized copying of this file, via any medium is strictly prohibited
+    % Proprietary and confidential
+    % Written by Boris Schauerte <schauerte@ieee.org>, 2011
+    
     if nargin < 1, imsize = [100 100]; end
     if nargin < 2, pos = imsize/2; end
     if nargin < 3, r = sqrt(sum(imsize.^2))/3; end

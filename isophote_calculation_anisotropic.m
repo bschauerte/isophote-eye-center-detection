@@ -1,11 +1,16 @@
-% ISOPHOTE_CALCULATION Calculate the isophotes and their curvature,
-%   curvedness, target displacement coordinates/pixels/indices, 
-%   displacement vectors and radius
-%
-% @author B. Schauerte
-% @date 2011
-
 function [k,c,D,R,ind,Lx,Ly,Lxx,Lxy,Lyy]=isophote_calculation_anisotropic(I,sigma)
+    % ISOPHOTE_CALCULATION Calculate the isophotes and their curvature,
+    %   curvedness, target displacement coordinates/pixels/indices, 
+    %   displacement vectors and radius
+    %
+    % @author B. Schauerte
+    % @date 2011
+    %
+    % Copyright (C) Boris Schauerte - All Rights Reserved
+    % Unauthorized copying of this file, via any medium is strictly prohibited
+    % Proprietary and confidential
+    % Written by Boris Schauerte <schauerte@ieee.org>, 2011
+
   % convert from RGB to Gray if necessary
   if size(I,3) > 1
     I=rgb2gray(I);

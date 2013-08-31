@@ -8,6 +8,11 @@ function [Lx,Ly,Lxx,Lxy,Lyy,hx,hy,hxx,hxy,hyy]=imderivgauss_anisotropic(I,sigma)
     %
     % @author B. Schauerte
     % @date 2011
+    %
+    % Copyright (C) Boris Schauerte - All Rights Reserved
+    % Unauthorized copying of this file, via any medium is strictly prohibited
+    % Proprietary and confidential
+    % Written by Boris Schauerte <schauerte@ieee.org>, 2011
     
     % parameters
     if nargin < 2
