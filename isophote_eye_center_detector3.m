@@ -6,13 +6,24 @@ function [k,c,D,acc,ind,Lx,Ly,Lxx,Lxy,Lyy,hx,hy,hxx,hxy,hyy]=isophote_eye_center
     % This implementation relies on anisotropic Gauss filtering and the
     % .mex implementation of the main isophote calculations.
     %
-    % @author B. Schauerte
+    % @author Boris Schauerte
+    % @email  boris.schauerte@eyezag.com
     % @date   2011
     %
-    % Copyright (C) Boris Schauerte - All Rights Reserved
-    % Unauthorized copying of this file, via any medium is strictly prohibited
-    % Proprietary and confidential
-    % Written by Boris Schauerte <schauerte@ieee.org>, 2011
+    % Copyright (C) 2011  Boris Schauerte
+    % 
+    % This program is free software: you can redistribute it and/or modify
+    % it under the terms of the GNU General Public License as published by
+    % the Free Software Foundation, either version 3 of the License, or
+    % (at your option) any later version.
+    %
+    % This program is distributed in the hope that it will be useful,
+    % but WITHOUT ANY WARRANTY; without even the implied warranty of
+    % MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    % GNU General Public License for more details.
+    %
+    % You should have received a copy of the GNU General Public License
+    % along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
     [k,c,D,R,ind,Lx,Ly,Lxx,Lxy,Lyy] = isophote_calculation_anisotropic(I,sigma);
     %[k,c,D,R,ind,Lx,Ly,Lxx,Lxy,Lyy,hx,hy,hxx,hxy,hyy]=isophote_calculation(I,sigma);
